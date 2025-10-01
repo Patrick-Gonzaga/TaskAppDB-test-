@@ -24,24 +24,11 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/jetbrainsmono_italic"
-        android:text="29/05/1998"
+        android:text="29/05/1998 20:45"
         android:textFontWeight="500"
         android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textTask"
-        app:layout_constraintTop_toBottomOf="@+id/textTask" />
-
-    <TextView
-        android:id="@+id/textHour"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/jetbrainsmono_italic"
-        android:text="20:45"
-        android:textFontWeight="500"
-        android:textSize="14dp"
-        app:layout_constraintStart_toEndOf="@+id/textDate"
         app:layout_constraintTop_toBottomOf="@+id/textTask" />
 
 
